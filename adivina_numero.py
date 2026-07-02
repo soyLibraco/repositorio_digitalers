@@ -1,6 +1,7 @@
 import random
 
-jugar = "y"
+jugar = "y"   # Asignando variable para controlar la continuidad o salida del juego.
+
 while jugar == "y":
     numero_elegido = random.randint(0, 10)
     intentos = 0
